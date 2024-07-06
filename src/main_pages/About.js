@@ -7,18 +7,17 @@ const About = () => {
     <>
      <Common 
     heading='Meet the Creative Mind Behind the Portfolio: Exploring Shrikant Journey'
-    visit='/contact'
-    btnText='Contact Me'
+    btnText='Resume'
     src={imglink2}
     />
        <div class="text-center pb-3">
-            <a href="https://github.com/Shrikantj0794" target='_' class="btn social-btn github-btn">
+            <a href="https://github.com/Shrikantj0794" target='_blank'rel="noreferrer" class="btn social-btn github-btn">
                 <i class="fab fa-github"></i> GitHub
             </a>
-            <a href="https://www.linkedin.com/in/shrikant-jamale-18146a209/" target='_' class="btn social-btn linkedin-btn">
+            <a href="https://www.linkedin.com/in/shrikant-jamale-18146a209/" target='_blank'rel="noreferrer" class="btn social-btn linkedin-btn">
                 <i class="fab fa-linkedin"></i> LinkedIn
             </a>
-            <a href="https://www.instagram.com/shrikantj0794/" target='_' class="btn social-btn instagram-btn">
+            <a href="https://www.instagram.com/shrikantj0794/" target='_blank'rel="noreferrer" class="btn social-btn instagram-btn">
                 <i class="fab fa-instagram"></i> Instagram
             </a>
         </div>

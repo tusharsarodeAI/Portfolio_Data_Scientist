@@ -19,6 +19,7 @@ function App() {
   return (<>
   <Router>
       <Navbar/>
+      <div style={{ paddingTop: '60px' }}>
     <Routes>
       <Route exact path="/" element={<Home/>}/> {/* add props name*/}
       <Route exact path="/projects" element={<Projects/>}/>
@@ -26,6 +27,7 @@ function App() {
       <Route exact path="/About" element={<About/>}/>
       <Route path='*' element={<Navigate to = '/'/>}/>
     </Routes>
+    </div>
     <Footer/>
     </Router>
     </>

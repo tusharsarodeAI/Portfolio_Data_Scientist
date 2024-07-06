@@ -7,8 +7,7 @@ const Home = () => {
     <>
     <Common 
     heading='I like to craft solid and scalable frontend products with great user experiences.'
-    visit='/Projects'
-    btnText='Portfolio'
+    btnText='Resume'
     src={imglink1}
     />
     </>
