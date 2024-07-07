@@ -22,7 +22,7 @@ const AllProjects = () => {
                 <h1>My projects</h1>
               </ul>
             </div>
-            <div className="col-lg-6 text-lg-end">
+            <div className="col-lg-6 text-lg-end text-md-end text-sm-center">
               <ul className="list-inline mx-n3 mb-0" id="portfolio-filters">
                 <li
                   className={`mx-3 ${activeFilter === 'all' ? 'active' : ''}`}

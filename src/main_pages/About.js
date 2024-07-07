@@ -41,12 +41,11 @@ const About = () => {
             <div className="col-10 mx-auto">
               <div className="row margine">
                 {/* Text Content */}
-                <div className="col-md-6 pt-6 pt-lg-0 order-2 order-lg-1 d-flex align-content-center flex-column">
+                <div className="col-md-6 pt-6 pt-lg-0 order-2 order-lg-1 d-flex  flex-column">
                   <div className='text-title'>
                   <h1>Hi, I'm</h1>
                   <h1><strong className='brand-name'>Shrikant</strong></h1>
-                  <h4 className='my-3 blockquote-footer'>Web Developer</h4>
-                  <h6 className='lead'>Meet the Creative Mind Behind the Portfolio: Exploring Shrikant's Journey</h6>
+                  <h6 className='lead'>My name is Shrikant Ganesh Jamale. I am originally from Beed but now live in Pune. I recently completed my B.Tech degree in Information Technology. My passion lies in web development, and I am eager to create innovative and user-friendly websites.</h6>
                   </div>
                   <div className="tab-title">
                     <p
@@ -73,7 +72,7 @@ const About = () => {
                   </div>
                 </div>
                 {/* Image Content */}
-                <div className='col-lg-6 order-1 order-lg-2 header-img'>
+                <div className='col-lg-6 order-1 order-lg-2 about-img'>
                   <img src={imglink2} alt="webdeveloper" className='img-fluid animated' />
                 </div>
               </div>

@@ -8,6 +8,12 @@ body {
   scroll-behavior: smooth;
 }
 
+.about-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -51,15 +57,16 @@ code {
   width: 100%;
   height: 100%;
 }
-.margine{
-  margin-top: -35px;
-}
+
 .header-img{
   text-align: right;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+}
+.about-img{
+  text-align: right;
+  margin-top: 7rem;
 }
 #header .brand-name{
   color: #3498db;
@@ -110,6 +117,12 @@ code {
   }
   100%{
     transform: translateY(-10px);
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -199,6 +212,7 @@ code {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .list-inline li {
@@ -223,7 +237,7 @@ code {
 
 /* About sub title */
 .text-title{
-  margin-top: 10rem;
+  margin-top: 7rem;
   }
 .tab-title {
   display: flex;
@@ -272,6 +286,7 @@ code {
 .tab-contents {
   display: block; /* Ensure this is displayed */
   margin-top: 0px;
+
 }
 
 .tab-contents.active-tab {

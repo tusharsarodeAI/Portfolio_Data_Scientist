@@ -19,7 +19,7 @@ function App() {
   return (<>
   <Router>
       <Navbar/>
-      <div style={{ paddingTop: '60px' }}>
+      <div style={{ paddingTop: '70px' }}>
     <Routes>
       <Route exact path="/" element={<Home/>}/> {/* add props name*/}
       <Route exact path="/projects" element={<Projects/>}/>

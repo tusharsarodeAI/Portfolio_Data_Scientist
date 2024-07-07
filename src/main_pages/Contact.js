@@ -11,10 +11,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_kocq1hv', 'template_xaeaj5o', form.current,  'IJJTci-ikJdTMGiCF')
+      .sendForm('service_kocq1hv', 'template_xaeaj5o', form.current, 'IJJTci-ikJdTMGiCF')
       .then(
         () => {
-          toast.success('Message Sent Successfull', {
+          toast.success('Message Sent Successfully', {
             position: "top-center",
             autoClose: 2000,
             hideProgressBar: false,
@@ -24,7 +24,7 @@ const Contact = () => {
             progress: undefined,
             theme: "light",
             transition: Bounce,
-            });
+          });
         },
         (error) => {
           alert('FAILED...', error.text);
@@ -34,7 +34,6 @@ const Contact = () => {
 
   const [data, setData] = useState({
     name: '',
-    phoneNo: '',
     email: '',
     msg: ''
   });
@@ -48,21 +47,7 @@ const Contact = () => {
   };
 
   const validateForm = () => {
-    return checkPhone();
-  };
-
-  const checkPhone = () => {
-    const phone = data.phoneNo;
-    const phoneInputElement = document.querySelector('input[name="user_phoneNo"]');
-    const phoneNum = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
-    if (phone.match(phoneNum)) {
-      return true;
-    } else {
-      if (phoneInputElement) {
-        phoneInputElement.classList.add('error');
-      }
-      return false;
-    }
+    return true; // No need for phone validation if the field is removed
   };
 
   return (
@@ -86,22 +71,6 @@ const Contact = () => {
                   value={data.name}
                   onChange={handleChange}
                   placeholder="Enter your name"
-                  required
-                />
-              </div>
-
-              <div className="mb-3">
-                <label htmlFor="exampleFormControlInput1" className="form-label">
-                  Phone No
-                </label>
-                <input
-                  type="text" // Changed to text for better phone number validation
-                  className="form-control"
-                  id="exampleFormControlInput1"
-                  name="phoneNo"
-                  value={data.phoneNo}
-                  onChange={handleChange}
-                  placeholder="Mobile No"
                   required
                 />
               </div>
@@ -137,7 +106,7 @@ const Contact = () => {
               </div>
 
               <div className="col-12">
-                <button className="btn btn-primary" type="submit">
+                <button className="btn btn-primary mb-4" type="submit">
                   Send
                 </button>
               </div>
