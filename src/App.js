@@ -27,8 +27,8 @@ function App() {
       <Route exact path="/About" element={<About/>}/>
       <Route path='*' element={<Navigate to = '/'/>}/>
     </Routes>
-    </div>
     <Footer/>
+    </div>
     </Router>
     </>
   );
