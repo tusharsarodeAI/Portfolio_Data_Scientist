@@ -51,14 +51,14 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <div className='container1'>
       <div className="my-3">
         <h1 className="text-center">Contact Us</h1>
       </div>
       <div className="container contact_div">
         <div className="row">
           <div className="col-md-6 col-10 mx-auto">
-            <form onSubmit={(e) => { if (validateForm()) sendEmail(e); }} ref={form}>
+            <form onSubmit={(e) => { if (validateForm()) sendEmail(e); }} ref={form} className='h-90'>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">
                   Full Name
@@ -106,7 +106,7 @@ const Contact = () => {
               </div>
 
               <div className="col-12">
-                <button className="btn btn-primary mb-4" type="submit">
+                <button className="btn btn-primary" type="submit">
                   Send
                 </button>
               </div>
@@ -116,7 +116,7 @@ const Contact = () => {
         <ToastContainer />
       </div>
       
-    </>
+    </div>
   );
 };
 
