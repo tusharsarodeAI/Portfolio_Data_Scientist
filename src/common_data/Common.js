@@ -11,7 +11,7 @@ const Common = (props) => {
           <div className="row">
           <div className="col-md-6 pt-6 pt-lg-0 order-2 mt-5 order-lg-1 d-flex align-content-center flex-column">
             <h1>Hi, I'm</h1>
-            <h1><strong className='brand-name'>Shrikant</strong></h1>
+            <h1><strong className='brand-name'>Shri</strong></h1>
             <h4 className='my-3 blockquote-footer'>Web Developer</h4>
             <h6 className='lead'>{props.heading}</h6>
           <div className="mt-3">
