@@ -5,22 +5,14 @@ const Project_data = [
         title:'Ecommerce web',
         description: 'Explore a online shopping excellence with our eCommerce website, meticulously crafted with HTML and CSS. ',
         visit: 'https://raisoniboys.000webhostapp.com/',
-        type:'html'
-    },
-    {
-        id:'2',
-        imgsrc:'./images/portfolioweb.JPG',
-        title:'Portfolio web',
-        description:'Explore my portfolio website crafted using the HTML and CSS. Dive into a curated collection of my best work, beautifully presented in an intuitive and visually captivating design.',
-        visit:'https://github.com/Shrikantj0794/Portfolio',
-        type:'html'
+        type:'javascript'
     },
     {
         id:'13',
         imgsrc:'./images/textutisapp.JPG',
         title:'Text Utils',
         description: 'Easily format and style your text—capitalize, highlight, or no of words. React.js ensures a dynamic and user-friendly text manipulation experience,',
-        visit: 'https://shrikantj0794.github.io/react-textutils/',
+        visit: 'https://textconvertera.netlify.app/',
         type:'reactjs'
     },
     {

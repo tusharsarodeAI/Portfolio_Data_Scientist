@@ -30,24 +30,21 @@ const AllProjects = () => {
                 >
                   All
                 </li>
+
                 <li
-                  className={`mx-3 ${activeFilter === 'html' ? 'active' : ''}`}
-                  onClick={() => filterCard('html')}
-                >
-                  Html/Css
-                </li>
-                <li
-                  className={`mx-3 ${activeFilter === 'javascript' ? 'active' : ''}`}
+                  className={`mx-3 text-center ${activeFilter === 'javascript' ? 'active' : ''}`}
                   onClick={() => filterCard('javascript')}
                 >
-                  JavaScript
+                  Html/CSS<br/>Js
                 </li>
+
                 <li
                   className={`mx-3 ${activeFilter === 'reactjs' ? 'active' : ''}`}
                   onClick={() => filterCard('reactjs')}
                 >
                   Reactjs
                 </li>
+
               </ul>
             </div>
           </div>
