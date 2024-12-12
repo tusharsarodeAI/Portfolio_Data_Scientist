@@ -9,23 +9,31 @@ const About = () => {
       case 'Skills':
         return (
           <ul>
-            <li><span>UI/UX</span><br />Designing web/app interfaces.</li>
-            <li><span>Frontend Development</span><br />Building responsive websites.</li>
-            <li><span>Backend Development</span><br />Creating server-side logic.</li>
+            <li><span>Languages :-</span> Python,java, SQL, Spark SQL, Shell Scripting.</li>
+            <li><span>Data Processing :-</span>Pandas, Apache Spark (PySpark), NumPy | Airflow, Kafka, dbt, Databricks DLT Pipelines, Cron</li>
+            <li><span>Data Integration :-</span>PostgreSQL, BigQuery, Delta Lake, Apache Hive | Beautiful Soup, Scrapy, Requests, Regex</li>
+            <li><span>Data Analytics :-</span>Excel, Tableau, Streamlit, Plotly, Matplotlib, Flask</li>
+            <li><span>Cloud & DevOps :-</span>Git, Linux, Docker, CI/CD | Databricks, Azure (App Service, Azure Linux VM Compute)</li>
           </ul>
+
+ 
+ 
+
+
         );
       case 'Experience':
         return (
           <ul>
-            <li><span>Phi Design Experience Pvt. Ltd</span><br />web developer (Jun 2023-Nov 2023)</li>
+            <li><span>YAHSHUA SOFTWARE LTD. </span><br />SOFTWARE DEVELOPER </li>
+            <li><span>REGO DIGITAL SOLUTIONS PVT LTD.   </span><br />SOFTWARE DEVELOPMENT INTERN </li>
           </ul>
         );
       case 'Education':
         return (
           <ul>
-            <li><span>SPPU University</span><br />B.Tech in Information Technology (2020-2024)<br/>CGPA: 8.06</li>
-            <li><span>HSC</span><br />Higher Secondary (2019-2020)<br/>Percentile: 79.08</li>
-            <li><span>SSC</span><br />Secondary Education(2017-2018)<br/>Percentile: 76.40</li>
+            <li><span>SPPU University</span><br />B.Tech in – Artificial Intelligence (2021-2024)<br/>CGPA: 8.65</li>
+            <li><span>Government Polytechnic Aurangabad </span><br />Diploma – Computer Engineering (2018-2021)<br/>Percentage: 86.65% </li>
+            
           </ul>
         );
       default:
@@ -43,9 +51,7 @@ const About = () => {
                 {/* Text Content */}
                 <div className="col-md-6 pt-6 pt-lg-0 order-2 order-lg-1 d-flex  flex-column">
                   <div className='text-title'>
-                  <h1>Hi, I'm</h1>
-                  <h1><strong className='brand-name'>Shrikant</strong></h1>
-                  <h6 className='lead'>My name is Shrikant Ganesh Jamale. I am originally from Beed but now live in Pune. I recently completed my B.Tech degree in Information Technology. My passion lies in web development, and I am eager to create innovative and user-friendly websites.</h6>
+                 
                   </div>
                   <div className="tab-title">
                     <p
@@ -78,17 +84,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="text-center social-div">
-            <a href="https://github.com/Shrikantj0794" target='_blank' rel="noreferrer" className="btn social-btn github-btn">
-              <i className="fab fa-github"></i> GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/shrikant-jamale-18146a209/" target='_blank' rel="noreferrer" className="btn social-btn linkedin-btn">
-              <i className="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://www.instagram.com/shrikantj0794/" target='_blank' rel="noreferrer" className="btn social-btn instagram-btn">
-              <i className="fab fa-instagram"></i> Instagram
-            </a>
-          </div>
+         
         </div>
       </section>
     </>

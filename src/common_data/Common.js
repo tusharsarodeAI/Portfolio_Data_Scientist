@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/Tushar_Resume.pdf'
 
 const Common = (props) => {
   return (
@@ -11,11 +11,11 @@ const Common = (props) => {
           <div className="row">
           <div className="col-md-6 pt-6 pt-lg-0 order-2 mt-5 order-lg-1 d-flex align-content-center flex-column">
             <h1>Hi, I'm</h1>
-            <h1><strong className='brand-name'>Shrikant</strong></h1>
-            <h4 className='my-3 blockquote-footer'>Web Developer</h4>
+            <h1><strong className='brand-name'>Tushar Nishikant Sarode </strong></h1>
+            <h4 className='my-3 blockquote-footer'>Data Scientist and Data Engineer</h4>
             <h6 className='lead'>{props.heading}</h6>
           <div className="mt-3">
-          <a href={Resume} download="Shrikant\'s Resume" className="btn btn-outline-primary rounded-pill" target="_blank" rel="noreferrer">
+          <a href={Resume} download="tusshar_resume" className="btn btn-outline-primary rounded-pill" target="_blank" rel="noreferrer">
             {props.btnText}
           </a>
           </div>
